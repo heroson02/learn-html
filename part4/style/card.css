@@ -1,0 +1,134 @@
+.container{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	translate:-50% -50%;
+	display: flex;
+	width: 261px;
+	padding: 8px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+
+	border-radius: 8px;
+	background: #FFF;
+	border: 1px solid black;
+}
+
+.inner{
+	position: relative;
+	display: flex;
+	padding: 12px 12px 60px 12px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 27px;
+	align-self: stretch;
+
+	border-radius: 8px 8px 0px 0px;
+	background: #FDF4E5;
+}
+
+.bookmark{
+	position: absolute;
+	right: 6px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+}
+
+.first{
+	align-self: stretch;
+	color: #000;
+	font-family: Pretendard;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.inner .second{
+	align-self: stretch;
+	color: #000;
+	font-family: Pretendard;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.next{
+	position: absolute;
+	right: 6px;
+	bottom: 59px;
+
+	width: 24px;
+	height: 24px;
+}
+
+.frame{
+	display: flex;
+	padding: 0px 8px;
+	justify-content: space-between;
+	align-items: center;
+	align-self: stretch;
+}
+
+.frame02{
+	display: flex;
+	width: 136.5px;
+	align-items: center;
+	gap: 15px;
+}
+
+.frame p{
+	color: #000;
+	font-family: Pretendard;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+ul{
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	position: absolute;
+	right: 108px;
+	bottom: 12px;
+
+
+	li{
+		width: 4px;
+		height: 4px;
+		fill: #D9D9D9;
+	}
+
+	&:first-child{
+		fill: #323232;
+	}
+
+}
+
+
+
+button{
+	display: flex;
+	padding: 4px 8px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+
+	border-radius: 15px;
+	background: #000;
+	color: #FFF;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+	cursor:pointer;
+}
+
+
