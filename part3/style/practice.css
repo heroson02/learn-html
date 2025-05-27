@@ -1,0 +1,30 @@
+ul.red{
+	color: red;
+}
+
+.big{
+	background-color: lightgray;
+}
+
+ul li:last-child a{
+	color:red;
+}
+
+.big .firstBox{
+	background-color: yellow;
+	border: 1px solid blue;
+}
+
+.itemList{
+	:nth-child(2){
+		font-size: 20px;
+	}
+
+	:nth-child(3){
+		text-decoration: underline;
+	}
+}
+
+footer:hover{
+	background-color:purple;
+}

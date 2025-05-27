@@ -1,0 +1,52 @@
+body{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	translate:-50% -50%;
+}
+
+header{
+	width: 1000px;
+	height: 100px;
+	background-color: gold;
+}
+
+.main{
+	display: flex;
+	gap: 10px;
+}
+
+.snb{
+	background-color: dodgerblue;
+	width: 200px;
+	height: 700px;
+}
+
+.contents{
+	background-color: lightgreen;
+	height: 700px;
+	/* width: 790px; */
+	flex: 1;
+}
+
+.bottom{
+	padding-top: 10px;
+	box-sizing: content-box;
+	display: flex;
+	gap: 5px;
+}
+
+.bottom div{
+	background-color: hotpink;
+	width: 330px;
+	height: 130px;
+}
+
+footer{
+	height: 50px;
+	width: 1000px;
+	background-color: black;
+}

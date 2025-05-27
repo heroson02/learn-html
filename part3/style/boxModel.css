@@ -1,0 +1,29 @@
+div{
+	width: 200px;
+	height: 200px;
+}
+
+.box01{
+	background-color: red;
+	text-align: center;
+	/* margin을 방향 지정하지 않고 설정하면, 상하좌우 순서대로 적용된다. */
+	/* margin: 10px 10px 0 0 ; */
+	/* margin: 0 auto; auto는 가운데로 컴퓨터가 해줌, 컨텐츠가 1층에 있을 떄만 사용 가능 */
+
+	margin-inline: 30px;
+}
+.box02{
+	background-color: dodgerblue;
+	padding: 10px;
+}
+.box03{
+	background-color: orange;
+	border: 10px solid black;
+	border-radius: 30px;
+	border-color: red;
+}
+.box04{
+	background-color: greenyellow;
+	border : 5px solid black;
+	box-sizing: border-box; /* width와 height를 지키면서 border를 만드는 기능 */
+}
